@@ -1,0 +1,94 @@
+
+
+#=============================Datasets========================
+#---------------Min---------
+#train_constituent: data/AMR/min/train_min_tree.pickle
+#dev_constituent: data/AMR/min/train_min_tree.pickle
+#test_constituent: data/AMR/min/train_min_tree.pickle
+#
+#train_sentence: data/AMR/min/train_min_sentence_split.txt
+##train_sentence: data/AMR/min/train_min_split_sample.txt
+#dev_sentence: data/AMR/min/train_min_sentence_split.txt
+#test_sentence: data/AMR/min/train_min_sentence_split.txt
+#
+#test: data/AMR/min/train_min.txt
+#train: data/AMR/min/train_min.txt
+#dev: data/AMR/min/train_min.txt
+#
+#train_clause: data/AMR/min/train_min_clause_all.txt
+#dev_clause: data/AMR/min/train_min_clause_all.txt
+#test_clause: data/AMR/min/train_min_clause_all.txt
+
+
+#-------------AMR2.0-------
+#train: /sda/yikmat/PycharmCode/Hierar_AMR/DATA/AMR/amr_2.0/train.txt
+#dev: /sda/yikmat/PycharmCode/Hierar_AMR/DATA/AMR/amr_2.0/dev.txt
+#test: /sda/yikmat/PycharmCode/Hierar_AMR/DATA/AMR/amr_2.0/test.txt
+#
+#train_sentence: /sda/yikmat/PycharmCode/Hierar_AMR/DATA/AMR/amr_2.0/sentences/train_sentences_split.txt
+#dev_sentence: /sda/yikmat/PycharmCode/Hierar_AMR/DATA/AMR/amr_2.0/sentences/dev_sentences_split.txt
+#test_sentence: /sda/yikmat/PycharmCode/Hierar_AMR/DATA/AMR/amr_2.0/sentences/test_sentences_split.txt
+#
+#train_constituent: /sda/yikmat/PycharmCode/Hierar_AMR/DATA/AMR/amr_2.0/phrases/train_sentences_tree.pickle
+#dev_constituent: /sda/yikmat/PycharmCode/Hierar_AMR/DATA/AMR/amr_2.0/phrases/dev_sentences_tree.pickle
+#test_constituent: /sda/yikmat/PycharmCode/Hierar_AMR/DATA/AMR/amr_2.0/phrases/test_sentences_tree.pickle
+#
+#train_clause: /sda/yikmat/PycharmCode/Hierar_AMR/DATA/AMR/amr_2.0/clauses/AMR2.0_train_clause_all.txt
+#dev_clause: /sda/yikmat/PycharmCode/Hierar_AMR/DATA/AMR/amr_2.0/clauses/AMR2.0_dev_clause_all.txt
+#test_clause: /sda/yikmat/PycharmCode/Hierar_AMR/DATA/AMR/amr_2.0/clauses/AMR2.0_test_clause_all.txt
+
+
+#-------------AMR3.0-------
+#train: /sda/yikmat/PycharmCode/Hierar_AMR/DATA/AMR/amr_3.0/train.txt
+#dev: /sda/yikmat/PycharmCode/Hierar_AMR/DATA/AMR/amr_3.0/dev.txt
+#test: /sda/yikmat/PycharmCode/Hierar_AMR/DATA/AMR/amr_3.0/test.txt
+#
+#train_sentence: /sda/yikmat/PycharmCode/Hierar_AMR/DATA/AMR/amr_3.0/sentences/train_sentences_split.txt
+#dev_sentence: /sda/yikmat/PycharmCode/Hierar_AMR/DATA/AMR/amr_3.0/sentences/dev_sentences_split.txt
+#test_sentence: /sda/yikmat/PycharmCode/Hierar_AMR/DATA/AMR/amr_3.0/sentences/test_sentences_split.txt
+#
+#train_constituent: /sda/yikmat/PycharmCode/Hierar_AMR/DATA/AMR/amr_3.0/phrases/train_sentences_tree.pickle
+#dev_constituent: /sda/yikmat/PycharmCode/Hierar_AMR/DATA/AMR/amr_3.0/phrases/dev_sentences_tree.pickle
+#test_constituent: /sda/yikmat/PycharmCode/Hierar_AMR/DATA/AMR/amr_3.0/phrases/test_sentences_tree.pickle
+#
+#train_clause: /sda/yikmat/PycharmCode/Hierar_AMR/DATA/AMR/amr_3.0/clauses/AMR3.0_train_clause_all.txt
+#dev_clause: /sda/yikmat/PycharmCode/Hierar_AMR/DATA/AMR/amr_3.0/clauses/AMR3.0_dev_clause_all.txt
+#test_clause: /sda/yikmat/PycharmCode/Hierar_AMR/DATA/AMR/amr_3.0/clauses/AMR3.0_test_clause_all.txt
+
+
+
+#-------------Fewshot-------
+train: /sda/yikmat/PycharmCode/Hierar_AMR/DATA/AMR/few-shot/amr_2.0/0.01/AMR2.0_train_0.01.txt
+dev: /sda/yikmat/PycharmCode/Hierar_AMR/DATA/AMR/amr_2.0/dev.txt
+test: /sda/yikmat/PycharmCode/Hierar_AMR/DATA/AMR/amr_2.0/test.txt
+
+train_sentence: /sda/yikmat/PycharmCode/Hierar_AMR/DATA/AMR/few-shot/amr_2.0/0.01/amr2.0_0.01_sentences_split.txt
+dev_sentence: /sda/yikmat/PycharmCode/Hierar_AMR/DATA/AMR/amr_2.0/sentences/dev_sentences_split.txt
+test_sentence: /sda/yikmat/PycharmCode/Hierar_AMR/DATA/AMR/amr_2.0/sentences/test_sentences_split.txt
+
+train_constituent: /sda/yikmat/PycharmCode/Hierar_AMR/DATA/AMR/few-shot/amr_2.0/0.01/amr2.0_0.01_sentences_tree.pickle
+dev_constituent: /sda/yikmat/PycharmCode/Hierar_AMR/DATA/AMR/amr_2.0/phrases/dev_sentences_tree.pickle
+test_constituent: /sda/yikmat/PycharmCode/Hierar_AMR/DATA/AMR/amr_2.0/phrases/test_sentences_tree.pickle
+
+train_clause: /sda/yikmat/PycharmCode/Hierar_AMR/DATA/AMR/few-shot/amr_2.0/0.01/AMR2.0_train_0.01_clause_all.txt
+dev_clause: /sda/yikmat/PycharmCode/Hierar_AMR/DATA/AMR/amr_2.0/clauses/AMR2.0_dev_clause_all.txt
+test_clause: /sda/yikmat/PycharmCode/Hierar_AMR/DATA/AMR/amr_2.0/clauses/AMR2.0_test_clause_all.txt
+
+
+#=======seed============
+seed: 0821
+#=======IC===========
+IC_steps: 500
+IS_IC_Train: False
+#======MG=======
+head_list: 1-1-2-2-10
+mg_list: 1-1-1-1-1
+p_mg: 2-3-4
+mg_layer_begin_index: 0
+mg_layer_end_index: 2
+#======Hie=======
+hie_layer_begin_index: 0
+hie_layer_end_index: 2
+hie_mode: 1
+#======LSTM=====
+lstm_state: 2
