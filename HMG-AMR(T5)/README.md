@@ -59,3 +59,6 @@
     --blink-models-dir ../BLINK/models/ 
 
 The output file with wikifications will be written to the output folder.
+
+## Acknowledgements
+Our code is based on [ESB](https://github.com/IBM/graph_ensemble_learning#t5-training). Thanks for their high quality open codebase.
